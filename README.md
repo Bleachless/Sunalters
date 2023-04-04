@@ -5,8 +5,8 @@ Welcome to the Sunalters Discord bot repository. This bot is currently in the te
 ## ✨ Features
 
 -  Lyrics: The bot can search for song lyrics and display them in the chat.
--  DJ: The bot can play music in a voice channel using commands.
--  Command-only DJ: The bot can be configured to only respond to music commands from a specific role.
+-  DJ: Set the DJ role so that only users with that role can use the bot.
+-  Command-Restricted DJ: The bot can be customized to only respond to specific commands related to the DJ function, providing greater control and customization for the user.
 
 ## 🚀 Installation
 
