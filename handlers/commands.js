@@ -23,7 +23,7 @@ module.exports = (client) => {
   const rest = new REST({ version: "10" }).setToken(process.env.TOKEN);
   (async () => {
     try {
-      await rest.put(Routes.applicationGuildCommands(process.env.app_id, process.env.test_guild_id), {
+      await rest.put(Routes.applicationCommands(process.env.app_id), {
         body: commands,
       });
       console.log(chalk.green("Successfully registered application commands. 🚀"));
